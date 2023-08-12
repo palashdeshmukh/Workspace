@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
 const FooterContainer=styled.footer`
-position: absolute;
-bottom: 0;
 width:100%;
 display:flex;
 flex-wrap:no-wrap;

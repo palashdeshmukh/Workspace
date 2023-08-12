@@ -50,8 +50,7 @@ color:white;
 }
 `
 const NavbarContainer=styled.nav`
-position: absolute;
-top: 0;
+
 display:flex;
 width:100%;
 justify-content:space-between;

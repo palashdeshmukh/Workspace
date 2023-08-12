@@ -15,9 +15,7 @@ function App() {
   const AppContainer=styled.div`
   width:100%;
   max-width:1460px;
-  position: relative;
   margin: 0 auto;
-  height: 100vh;
   `
   return (
     <AppMainContainer>
