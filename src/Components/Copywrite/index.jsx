@@ -67,6 +67,11 @@ const CopywriteListLink=styled(Link)`
 width: 100%;
 color: gray;
 text-decoration: none;
+height: 20px;
+line-height: 20px;
+display: flex;
+font-size: 16px;
+align-items: center;
 `
 const Copywrite=()=>{
     return(
