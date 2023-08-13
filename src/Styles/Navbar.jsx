@@ -50,7 +50,8 @@ color:white;
 }
 `
 const NavbarContainer=styled.nav`
-
+position: sticky;
+top: 0;
 display:flex;
 width:100%;
 justify-content:space-between;
