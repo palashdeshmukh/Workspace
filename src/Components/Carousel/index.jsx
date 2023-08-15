@@ -19,6 +19,7 @@ const SimpleSlider = () => {
     maxWidth:"1460px", // Set the maximum height to 500px
     overflow: "hidden",
     border:"none", // Hide overflow content beyond the max height
+    backgroundColor:"rgba(0,0,0,0.1)"
   };
 
   return (
@@ -28,7 +29,7 @@ const SimpleSlider = () => {
           <img src={require("../../Assets/images/pixel.jpg")} alt={`Slide`} width="100%" height="100%" />
         </div>
         <div>
-          <img src={require("../../Assets/images/rentzy1.webp")} alt={`Slide`} width="100%" height="100%" />
+          <img src={require("../../Assets/images/rentzy1.jpg")} alt={`Slide`} width="100%" height="100%" />
         </div>
         <div>
           <img src={require("../../Assets/images/pixel.jpg")} alt={`Slide`} width="100%" height="100%" />

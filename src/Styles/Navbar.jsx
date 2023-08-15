@@ -6,6 +6,7 @@ const menuItems=[
     {to:'/about',label:'About'},
     {to:'/contact',label:'Contact'}
 ]
+// background-color:#C41E3A;
 
 const ItemContainer=styled.ul`
 
@@ -13,7 +14,7 @@ width:100%;
 display:flex;
 padding:0;
 margin:0;
-background-color:#C41E3A;
+background-color:#FB4E4D;
 @media (max-width:1068px){
     flex-direction:column;
 }
@@ -45,7 +46,7 @@ text-transform:capitalize;
 color:white;
 &:hover{
     background-color:white;
-    color:#C41E3A !important;
+    color:#FB4E4D !important;
 
 }
 `
@@ -78,7 +79,7 @@ max-width: 60px;
     font-size:40px;
     text-align:center;
     display:block;
-    background-color:#C41E3A;
+    background-color:#FB4E4D;
     }
 }
 `
@@ -94,7 +95,7 @@ justify-content:space-between;
     content:'\u20B9entzy';
     position:relative;
     height:60px;
-    color:#C41E3A;
+    color:#FB4E4D;
     line-height:50px;
     font-size:50px;
     text-align:center;

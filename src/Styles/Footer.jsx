@@ -13,7 +13,7 @@ flex-wrap:no-wrap;
 `
 const FooterGridContainer=styled.div`
 width:100%;
-background-color:#C41E3A;
+background-color:#FB4E4D;
 display:flex;
 @media (max-width:768px){
     flex-direction:column;
@@ -36,7 +36,7 @@ color:white;
 font-family:Arial, Helvetica, sans-serif;
 
 &.footHeadingtext{
-  color:#C41E3A;
+  color:#FB4E4D;
   height:60px;
   line-height:60px;
   padding:0 0 0 20px;
