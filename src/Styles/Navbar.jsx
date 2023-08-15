@@ -51,6 +51,7 @@ color:white;
 `
 const NavbarContainer=styled.nav`
 position: sticky;
+z-index: 1;
 top: 0;
 display:flex;
 width:100%;
