@@ -49,6 +49,9 @@ color:white;
     color:#131820 !important;
 
 }
+@media (max-width:1068px){
+    font-size: 16px;
+}
 `
 const NavbarContainer=styled.nav`
 position: sticky;
@@ -76,7 +79,7 @@ max-width: 60px;
     width:100%;
     height:60px;
     line-height:60px;
-    font-size:40px;
+    font-size:30px;
     text-align:center;
     display:block;
     background-color:#222F3F;
