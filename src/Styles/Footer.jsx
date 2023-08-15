@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
 const FooterContainer=styled.footer`
-position: relative;
+position:relative;
 bottom: 0;
 width: 100%;
 max-width: 1460px;
@@ -13,7 +13,7 @@ flex-wrap:no-wrap;
 `
 const FooterGridContainer=styled.div`
 width:100%;
-background-color:#FB4E4D;
+background-color:#222F3F;
 display:flex;
 @media (max-width:768px){
     flex-direction:column;
@@ -33,16 +33,15 @@ width:100%;
 list-style:none;
 padding:15px 15px 15px 20px;
 color:white;
-font-family:Arial, Helvetica, sans-serif;
 
 &.footHeadingtext{
-  color:#FB4E4D;
+  color:#222F3F;
   height:60px;
   line-height:60px;
   padding:0 0 0 20px;
   font-size:20px;
   font-weight:bold;
-  background-color:white
+  background-color:#FFFAFA;
 
 }
 `

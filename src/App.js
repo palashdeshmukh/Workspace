@@ -11,6 +11,7 @@ function App() {
   width:100%;
   display:flex;
   justify-content:center;
+  background-color:#f5F5f5;
   `
   const AppContainer=styled.div`
   width:100%;

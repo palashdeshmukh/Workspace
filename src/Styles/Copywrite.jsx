@@ -6,7 +6,7 @@ width: 100%;
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
-background-color: white;
+background-color:#f5F5f5;
 @media (max-width:1068px){
     flex-direction: column;
 }
