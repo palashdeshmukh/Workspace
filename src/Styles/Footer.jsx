@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
 const FooterContainer=styled.footer`
-width:100%;
+position: relative;
+bottom: 0;
+width: 100%;
+max-width: 1460px;
 display:flex;
 flex-wrap:no-wrap;
 @media (max-width:1068px){
@@ -53,4 +56,36 @@ letter-spacing:1px;
 }
 
 `
-export {FooterContainer,FooterGridContainer,FooterGridItem,FooterUnorderdItemLink,FooterUnorderdList,FooterUnorderdListItems}
+//Here is the Data of the table
+
+const FooterItemListOne=[
+    "Help Centre",
+    "\u20B9entzyCover",
+    "Supporting people with disabilites",
+    "Cancellation options",
+    "Our COVID-19 Response",
+    "Report a neighborhood concern"
+  ];
+
+  const FooterItemListTwo=[
+    "\u20B9entzy.org:disaster relief housing",
+    "Combating discrimination",
+  ];
+
+  const FooterItemListThreeData=[
+    "\u20B9entzy your home",
+    "\u20B9entzyCover for Hosts",
+    "Explore hosting resources",
+    "Visit our community forum",
+    "How to host responsibly",
+  ];
+
+  const FooterItemListFourData=[
+    "Newsroom",
+    "Learn about new features",
+    "Letter from our founders",
+    "Careers",
+    "Investors"
+  ]
+
+export {FooterContainer,FooterGridContainer,FooterGridItem,FooterUnorderdItemLink,FooterUnorderdList,FooterUnorderdListItems,FooterItemListOne,FooterItemListTwo,FooterItemListThreeData,FooterItemListFourData}

@@ -1,16 +1,10 @@
 import React from "react";
-import styled from 'styled-components'
 
-const raju =styled.div`
-
-`
-const Marquee = () => {
+const MarqueeFeature = () => {
   return (
     <>
-
-   
     </>
   );
 };
 
-export default Marquee;
+export default MarqueeFeature;

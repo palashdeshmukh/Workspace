@@ -1,10 +1,11 @@
 import React from "react";
-import {menuItems,ItemContainer,ItemList,ItemLink,NavbarContainer,NavContainerBox,NavContainerBoxOne} from "../../Styles/Navbar";
-const Navbar=()=>{
-    
+import {menuItems,ItemContainer,ItemList,BarContainer,ItemLink,NavbarContainer,NavContainerBox,NavContainerBoxOne} from "../../Styles/Navbar";
+
+ 
+const Navbar=()=>{   
 return(
         <NavbarContainer>
-        <NavContainerBox></NavContainerBox>
+        <NavContainerBox><BarContainer></BarContainer></NavContainerBox>
         <NavContainerBoxOne>
     <ItemContainer>
     {menuItems.map((item,index)=>(
