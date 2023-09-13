@@ -5,39 +5,31 @@ import Slider from "react-slick";
 
 const SimpleSlider = () => {
   const settings = {
-    dots: false,
     infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     arrows:false,
-    speed:2000,
-    autoplaySpeed:2000,
+    speed:3000,
+    autoplaySpeed:4000,
     autoplay:true,
-    centerPadding:0,
-    centerMode:true,
-    adaptiveHeight:true
-    
-  };
 
-  const sliderContainerStyle = {
-    display:"block",
 
   };
 
   return (
-    <div style={sliderContainerStyle}>
+    <div style={{marginBottom:"-10px"}} className="w-100">
       <Slider {...settings}>
-        <div>
-          <img src={require("../../Assets/images/Cafelab.jpeg")} alt={`Slide`} width="100%" height="100%" />
+        <div className="card rounded-0 border-2">
+          <img src={require("../../Assets/images/Cafelab.jpeg")} alt={`Slide`} className="w-100"/>
         </div>
-        <div>
-          <img src={require("../../Assets/images/Cafelab1.jpeg")} alt={`Slide`} width="100%" height="100%" />
+        <div className="card rounded-0 border-2">
+          <img src={require("../../Assets/images/Cafelab1.jpeg")} alt={`Slide`} className="w-100"/>
         </div>
-        <div>
-          <img src={require("../../Assets/images/Cafelab2.jpeg")} alt={`Slide`} width="100%" height="100%" />
+        <div className="card rounded-0 border-2" >
+          <img src={require("../../Assets/images/Cafelab2.jpeg")} alt={`Slide`} className="w-100"/>
         </div>
-        <div>
-          <img src={require("../../Assets/images/Cafelab3.jpeg")} alt={`Slide`} width="100%" height="100%" />
+        <div className="card rounded-0 border21">
+          <img src={require("../../Assets/images/Cafelab3.jpeg")} alt={`Slide`} className="w-100"/>
         </div>
       </Slider>
     </div>
