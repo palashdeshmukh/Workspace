@@ -2,37 +2,44 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Justify } from "react-bootstrap-icons";
+import IntroVideo from "../IntroVideo";
 
 const SimpleSlider = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed:2000,
-    autoplay:true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    border:"none",
+    arrows:false,
+    centerPadding:0,
+    centerMode:true,
+    adaptiveHeight:true
+    
   };
 
   const sliderContainerStyle = {
-    maxHeight: "820px",
-    maxWidth:"1460px", // Set the maximum height to 500px
-    overflow: "hidden",
-    border:"none", // Hide overflow content beyond the max height
-    backgroundColor:"rgba(0,0,0,0.1)"
+    display:"block",
+
   };
 
   return (
     <div style={sliderContainerStyle}>
       <Slider {...settings}>
         <div>
-          <img src={require("../../Assets/images/pixel.jpg")} alt={`Slide`} width="100%" height="100%" />
+        <IntroVideo/>
         </div>
         <div>
-          <img src={require("../../Assets/images/rentzy1.jpg")} alt={`Slide`} width="100%" height="100%" />
+          <img src={require("../../Assets/images/Cafelab.jpeg")} alt={`Slide`} width="100%" height="100%" />
         </div>
         <div>
-          <img src={require("../../Assets/images/pixel.jpg")} alt={`Slide`} width="100%" height="100%" />
+          <img src={require("../../Assets/images/Cafelab1.jpeg")} alt={`Slide`} width="100%" height="100%" />
+        </div>
+        <div>
+          <img src={require("../../Assets/images/Cafelab2.jpeg")} alt={`Slide`} width="100%" height="100%" />
+        </div>
+        <div>
+          <img src={require("../../Assets/images/Cafelab3.jpeg")} alt={`Slide`} width="100%" height="100%" />
         </div>
       </Slider>
     </div>

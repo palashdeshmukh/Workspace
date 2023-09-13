@@ -14,9 +14,10 @@ function App() {
   background-color:#f5F5f5;
   `
   const AppContainer=styled.div`
-  width:100%;
-  max-width:1460px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+
   `
   return (
     <AppMainContainer>
