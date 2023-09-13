@@ -1,5 +1,4 @@
 import React from "react";
-import { Alt } from "react-bootstrap-icons";
 import { styled } from "styled-components";
 const LogoContainer=styled.div`
 margin: 0; 
