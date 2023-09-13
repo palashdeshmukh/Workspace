@@ -23,7 +23,7 @@ const FooterContainer = styled.div`
 `;
 
 const FooterList = styled(Link)`
-  padding: 10px 20px;
+  padding: 10px 0px;
   display: block;
   list-style: none;
   font-size: 18px;
@@ -34,10 +34,11 @@ const FooterList = styled(Link)`
   }
 
   @media (max-width:768px){
-    font-size: 14px;
+    font-size: 16px;
   }
   @media (max-width:1068px){
-    font-size: 14px;
+    font-size: 16px;
+    
   }
 `;
 const FooterHeaderText=(props)=>{
