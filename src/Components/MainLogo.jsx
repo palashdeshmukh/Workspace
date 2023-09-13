@@ -2,7 +2,7 @@ import React from "react";
 import { styled } from "styled-components";
 const LogoContainer=styled.div`
 width: 180px;
-padding: 0;
+padding: 0px 20px;
 margin: 0;
     
 `
