@@ -2,9 +2,19 @@ import React from "react";
 import { styled } from "styled-components";
 const LogoContainer=styled.div`
 margin: 0; 
-padding:2px 5px;   
 display:flex;
 height:60px;
+align-items:center;
+`
+const ImageContainer=styled.img`
+width:60px;
+height:50px;
+display:block;
+ @media (max-width:768px){
+    width:50px;
+height:40px;
+  
+}
 
 `
 const LogoText=styled.h2`
@@ -14,13 +24,21 @@ text-align: center;
 font-size:45px;
 font-weight:900;
 font-style:italic;
+height:60px;
+line-height:70px;
 font-family:Arial, Helvetica, sans-serif;
+@media (max-width:768px){
+    font-size:30px;
+    line-height:75px;
+
+
+}
 `
 const Logo=(props)=>{
     return(
         <>
        
-        <LogoContainer> <img src={require("../../src/Assets/images/workspacelogo.png")} alt="workspacelogo" width="70px" height="50px"/><LogoText>WorkSpace</LogoText></LogoContainer>
+        <LogoContainer> <ImageContainer src={require("../../src/Assets/images/workspacelogo.png")} alt="workspacelogo"/><LogoText>WorkSpace</LogoText></LogoContainer>
         </>
     )
 }
