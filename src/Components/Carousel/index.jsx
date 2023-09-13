@@ -2,7 +2,6 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import IntroVideo from "../IntroVideo";
 
 const SimpleSlider = () => {
   const settings = {
@@ -11,6 +10,9 @@ const SimpleSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows:false,
+    speed:2000,
+    autoplaySpeed:2000,
+    autoplay:true,
     centerPadding:0,
     centerMode:true,
     adaptiveHeight:true
@@ -25,9 +27,6 @@ const SimpleSlider = () => {
   return (
     <div style={sliderContainerStyle}>
       <Slider {...settings}>
-        <div>
-        <IntroVideo/>
-        </div>
         <div>
           <img src={require("../../Assets/images/Cafelab.jpeg")} alt={`Slide`} width="100%" height="100%" />
         </div>
