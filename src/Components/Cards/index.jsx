@@ -1,16 +1,8 @@
 import React from "react";
-import styled from 'styled-components';
 
-const CardContainer=styled.div`
-height: 500px;
-width: 100%;
-`
 const Cards=()=>{
     return(
         <>
-        <CardContainer>
-
-        </CardContainer>
         </>
     )
 }

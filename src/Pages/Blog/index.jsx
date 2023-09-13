@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
-import ProductDetail from "../../Components/Products/ProductDetail";
+import Accordion from "../../Components/Accordion";
 const Blog=()=>{
     return(
 <>
 <Navbar/>
-<ProductDetail/>
+<Accordion/>
 <Footer/>
 </>
     )
