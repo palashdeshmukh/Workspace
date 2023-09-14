@@ -31,7 +31,6 @@ font-family:Arial, Helvetica, sans-serif;
     font-size:30px;
     line-height:75px;
 
-
 }
 `
 const Logo=(props)=>{

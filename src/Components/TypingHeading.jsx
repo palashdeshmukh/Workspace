@@ -14,11 +14,11 @@ const TypingContainer = styled.div`
 
 
   @media (max-width: 768px) {
-    font-size: 40px; /* Adjust font size for smaller screens */
+    font-size: 45px; /* Adjust font size for smaller screens */
   }
 
   @media (max-width: 480px) {
-    font-size: 30px; /* Adjust font size for even smaller screens */
+    font-size: 35px; /* Adjust font size for even smaller screens */
   }
 `;
 

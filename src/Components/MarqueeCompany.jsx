@@ -27,7 +27,7 @@ function MarqueeCompany () {
     <img className="img-fluid" src={require("../Assets/logo/28_Optum.jpg")} alt="logo"/>
     </div>
 
-    <div  style={{height:"60px",width:"170px"}}  className='logo-holder'>
+    <div  style={{height:"60px",width:"1px"}}  className='logo-holder'>
     <img className="img-fluid" src={require("../Assets/logo/29_Vmock.jpg")} alt="logo"/>
     </div>
 
@@ -45,6 +45,9 @@ function MarqueeCompany () {
 
     <div  style={{height:"60px",width:"165px"}}  className='logo-holder'>
     <img className="img-fluid" src={require("../Assets/logo/35_Adda247.jpg")} alt="logo"/>
+    </div>
+    <div  style={{height:"60px",width:"165px"}}  className='logo-holder'>
+    <img className="img-fluid" src={require("../Assets/logo/28_Optum.jpg")} alt="logo"/>
     </div>
     </div>
 
