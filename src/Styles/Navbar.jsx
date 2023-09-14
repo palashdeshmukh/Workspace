@@ -61,6 +61,7 @@ z-index: 1;
 top: 0;
 display:flex;
 width:100%;
+padding: 0px;
 justify-content:space-between;
 background-color:#FFFAFA;
 @media (max-width:768px){

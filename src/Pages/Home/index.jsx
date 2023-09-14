@@ -9,6 +9,7 @@ import Facality from "../../Components/Facality";
 import Cards from "../../Components/Cards";
 import Accordion from "../../Components/Accordion";
 import MarqueeCompany from "../../Components/MarqueeCompany";
+import TypingHeading from "../../Components/TypingHeading";
 const HomeContainer=styled.div`
 width: 100%;
 `
@@ -17,6 +18,7 @@ const Home=()=>{
 <HomeContainer>
 <Navbar/>
 <IntroVideo/>
+<TypingHeading/>
 <Facality/>
 <Cards/> 
 <SimpleSlider/>
