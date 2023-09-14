@@ -12,6 +12,7 @@ export default class Cards extends Component {
       autoplay: true,
       autoplaySpeed: 2000,
       swipeToSlide: true,
+      arrows:false,
       responsive: [
         {
           breakpoint: 1024,
