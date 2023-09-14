@@ -27,7 +27,7 @@ function IntroVideo() {
   };
 
   return (
-    <IntroVideoContainer className="video-container">
+    <IntroVideoContainer className="video-container ">
       <TheIntroVideo
         className="responsive-video"
         src={Intro}

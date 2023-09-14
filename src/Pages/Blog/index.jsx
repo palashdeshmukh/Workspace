@@ -7,8 +7,7 @@ const Blog=()=>{
     return(
 <>
 <Navbar/>
-<Cards/>
-<Accordion/>
+
 <Footer/>
 </>
     )
