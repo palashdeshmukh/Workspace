@@ -5,8 +5,8 @@ function Accordion () {
     <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed fw-medium fst-italic fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      Experience the future of work with Workspace - your ideal office wherever you are.
+      <button class="accordion-button collapsed fst-italic fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Experience the future of work with Workspace - your ideal office wherever you are
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -27,7 +27,7 @@ At "Workspace," we believe that where you work should never compromise how you w
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed fw-medium fst-italic fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">   
+      <button class="accordion-button collapsed fst-italic fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">   
     What makes Workspace the ideal choice for you?
       </button>
     </h2>
@@ -61,7 +61,7 @@ Our ultimate goal is to provide a solution that empowers individuals to work eff
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed fw-medium fst-italic fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed fst-italic fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
       How does Workspace enhance your productivity?
       </button>
     </h2>
