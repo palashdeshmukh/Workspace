@@ -54,7 +54,7 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary w-100">View The Workspace </a>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
 </div>
@@ -66,7 +66,7 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary w-100">View The Workspace </a>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
 </div>
@@ -79,7 +79,7 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary w-100">View The Workspace </a>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
 </div>
@@ -92,7 +92,7 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary w-100">View The Workspace </a>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
 </div>
@@ -105,7 +105,7 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary w-100">View The Workspace </a>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
 </div>
@@ -118,7 +118,7 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary w-100">View The Workspace </a>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
 </div>
@@ -130,7 +130,7 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary w-100">View The Workspace </a>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
 </div>
