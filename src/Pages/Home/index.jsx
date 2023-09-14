@@ -6,6 +6,8 @@ import Copywrite from "../../Components/Copywrite";
 import SimpleSlider from "../../Components/Carousel";
 import IntroVideo from "../../Components/IntroVideo";
 import Facality from "../../Components/Facality";
+import Cards from "../../Components/Cards";
+import Accordion from "../../Components/Accordion";
 const HomeContainer=styled.div`
 width: 100%;
 `
@@ -15,7 +17,10 @@ const Home=()=>{
 <Navbar/>
 <IntroVideo/>
 <Facality/>
+<Cards/> 
 <SimpleSlider/>
+<Accordion/>
+
 <Footer/>
 <Copywrite/>
 </HomeContainer>
