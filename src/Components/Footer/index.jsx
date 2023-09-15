@@ -1,13 +1,16 @@
 import React from 'react';
-import Logo from '../MainLogo';
+import Weblogo from '../../Assets/images/workspacelogo.png'
 import * as Icons from 'react-bootstrap-icons';
 import '../../Styles/Footer.css'
 function Footer() {
   return (
     <div id='footer-container' className='w-100 d-flex flex-column flex-md-row justify-content-between'>
       <div id='footer-box' className='mb-0 mb-md-0 '>
-        <Logo />
-        <p className='lh-lg'>Workspace is your solution to the challenges that IT professionals and students encountered during the pandemic. We replicate the office environment, providing essential facilities at multiple locations across India. Our user-friendly website, powered by technologies like React.js and Bootstrap, offers a seamless and engaging workspace experience for efficient work and study.</p>
+        <div className='d-flex  align-content-center'>
+        <img width="45px" height="40px" src={Weblogo} alt=""/> 
+        <h3 className='fs-2 fw-bolder fst-italic pt-1'>Workspace</h3>
+        </div>
+        <p className=''>Workspace is your solution to the challenges that IT professionals and students encountered during the pandemic. We replicate the office environment, providing essential facilities at multiple locations across India. Our user-friendly website, powered by technologies like React.js and Bootstrap, offers a seamless and engaging workspace experience for efficient work and study.</p>
       </div>
       <div id='footer-box'>
         <h3>Support</h3>
