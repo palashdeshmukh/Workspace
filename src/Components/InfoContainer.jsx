@@ -1,4 +1,5 @@
 import React from 'react';
+import pcimg from '../Assets/images/mainpc.png'
 import styled from 'styled-components';
 
 const InfoContainerBox =styled.div`
@@ -15,20 +16,29 @@ function InfoContainer() {
   return (
     <div className='w-100 mt-4 mb-4'>
       <InfoContainerBox className='p-3 '>
-        <div className='fs-5 w-100'>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eos a natus? Ea alias corporis,
-            molestias sunt exercitationem quas accusamus voluptas odit unde at nam, totam optio aliquam, commodi et.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorem rem quasi ipsa! Nesciunt fuga nihil
-            molestiae labore! Quis ullam porro aliquid ex harum distinctio provident, iusto assumenda ipsa odit. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Alias harum, necessitatibus recusandae doloremque
-            dignissimos velit maiores excepturi id aspernatur porro similique rerum eum autem libero. Harum ullam
-            officia aspernatur quo?
+      <div className='fs-5 w-100'>
+          <p className='fs-5 lh-lm fst-italic text-left w-100'>
+            <strong>Discover "Workspace" - Your Gateway to a Productive Work Environment</strong>&nbsp;
+            Are you tired of the distractions and challenges of working or studying from home during these unprecedented times? We understand the struggle faced by IT industry employees and students alike. Maintaining a productive and focused work environment at home can be a daunting task, especially when it's so different from the structured setting of the office or classroom.
+
+            That's why we've created "Workspace," a game-changing platform designed to transform your remote work or study experience. Here's why you should choose "Workspace":
+
+            <div className="pl-4">
+              <p>
+                Recreate the Office Environment: We know that responsibility, attentiveness, and concentration are essential for success. "Workspace" recreates the office atmosphere, allowing you to tap into your highest potential, whether you're an employee striving for productivity or a student seeking focus.
+              </p>
+              <p>
+                Essential Office Facilities: Our platform provides all the essential office facilities you need to work or study with maximum efficiency. From comfortable workstations to high-speed internet access, we've got you covered.
+              </p>
+              <p>
+                Multiple Locations Across India: "Workspace" is not confined to a single location. We're proud to offer our services across various cities in India.
+              </p>
+            </div>
           </p>
         </div>
-        <div className='border border-white rounded w-100'>
+        <div className='border border-white rounded w-100 h-100'>
           <img
-            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZSkxPShR7EfHhYSmkuv3IyxM92Y3IjeNy3Q&usqp=CAU'
+            src={pcimg}
             alt='WSI'
             width='100%'
             height='auto'

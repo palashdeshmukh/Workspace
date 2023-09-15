@@ -4,7 +4,8 @@ const menuItems=[
     {to:'/',label:'Home'},
     {to:'/blog',label:'Blog'},
     {to:'/about',label:'About'},
-    {to:'/contact',label:'Explore'}
+    {to:'/contact',label:'Explore'},
+    {to:'/signup',label:'Signup'},
 ]
 // background-color:#C41E3A;
 

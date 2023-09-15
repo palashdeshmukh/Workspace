@@ -1,5 +1,8 @@
 import React from "react";
 import Myimage from "../../Assets/images/Cafelab3.jpeg"
+import Comp1 from "../../Assets/computerImg/Computer1.png"
+import Comp2 from "../../Assets/computerImg/Computer2.jpg"
+
 import { Component } from "react";
 import Slider from "react-slick";
 import Fivestar from "../Rating/Fivestar";
@@ -53,7 +56,7 @@ export default class Cards extends Component {
         <Slider {...settings}>
         <div className="p-2 d-flex justify-content-center">   
         <div class="card" style={{width:"26rem"}}>
-  <img src={Myimage} class="card-img-top" alt="..."/>
+  <img src={Comp1} class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -67,7 +70,7 @@ export default class Cards extends Component {
 
 <div className="p-2 d-flex justify-content-center">   
 <div class="card" style={{width:"26rem"}}>
-  <img src={Myimage} class="card-img-top" alt="..."/>
+  <img src={Comp2} class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Blog from './Pages/Blog';
 import About from './Pages/About';
 import Contact from './Pages/Contact/index.jsx'
+import SignUp from './Components/SignUp';
 
 function App() {
   const AppMainContainer=styled.div`
@@ -28,6 +29,8 @@ function App() {
     <Route path="/blog" element={<Blog/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>}/>
+    <Route path="/signup" element={<SignUp/>}/>
+
     
     </Routes>
     </BrowserRouter>
