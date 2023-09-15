@@ -13,7 +13,7 @@ function Facility() {
 
   return (
     <>
-      <h2 style={{color:"#222F3F"}} className="text-center pt-2 pb-2 fs-1 fw-bold fst-italic">Discover the Perks of Workspace: Elevate Your Work Environment</h2>
+      <h2 style={{color:"#222F3F"}} className="text-center pt-2 pb-2 fs-1 fw-bold">Discover the Perks of Workspace: Elevate Your Work Environment</h2>
 
       <div className="w-100 d-flex flex-wrap flex-row  gap-3 justify-content-around pt-3 pb-3 ">
         <div className="Box rounded-3 d-flex  flex-column text-center gap-3" style={FacilityStyle}>

@@ -2,15 +2,15 @@ import React from 'react'
 
 function Accordion () {
   return (
-    <div class="accordion" id="accordionExample">
+    <div class="accordion pt-3 pb-3" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed fst-italic fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
       Experience the future of work with Workspace - your ideal office wherever you are
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body fst-italic fs-6">
+      <div class="accordion-body fs-6">
       <strong>During the lockdown, as the world grappled with unprecedented challenges, we at "Workspace" recognized a specific struggle that resonated deeply with IT industry employees and students alike.</strong> Working from home, while necessary for safety, posed a unique set of obstacles. Many found it challenging to maintain the same level of productivity and focus they once had in the traditional office setting.
 
 In an office, the environment naturally fosters responsibility, attentiveness, and concentration. It's a space designed for work, where the mind can easily transition into a state of productivity. However, transitioning to remote work meant stepping into an environment that was far from the ideal workspace.
@@ -27,12 +27,12 @@ At "Workspace," we believe that where you work should never compromise how you w
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed fst-italic fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">   
+      <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">   
     What makes Workspace the ideal choice for you?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body fst-italic fs-6">
+      <div class="accordion-body fs-6">
       <strong>Discover "Workspace" - Your Gateway to a Productive Work Environment</strong><br/>
 
 Are you tired of the distractions and challenges of working or studying from home during these unprecedented times? We understand the struggle faced by IT industry employees and students alike. Maintaining a productive and focused work environment at home can be a daunting task, especially when it's so different from the structured setting of the office or classroom.
@@ -61,12 +61,12 @@ Our ultimate goal is to provide a solution that empowers individuals to work eff
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed fst-italic fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
       How does Workspace enhance your productivity?
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body fst-italic fs-6">
+      <div class="accordion-body fs-6">
       <strong>In a world transformed by the lockdown, we understand the unique challenges faced by IT industry professionals and students alike. Working from home, once a convenience, became a daily struggle for many.</strong> The familiar confines of the office, where responsibility, attentiveness, and concentration thrived, suddenly felt like distant memories.
 
 Enter "Workspace," the solution designed to elevate your productivity and bring the office back into your life, regardless of your location. But how exactly does "Workspace" enhance your productivity? Let's delve into the details:
