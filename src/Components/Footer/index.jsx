@@ -8,7 +8,7 @@ function Footer() {
       <div id='footer-box' className='mb-0 mb-md-0 '>
         <div className='d-flex  align-content-center'>
         <img width="45px" height="40px" src={Weblogo} alt=""/> 
-        <h3 className='fs-2 fw-bolder fst-italic pt-1'>Workspace</h3>
+        <h3 className='fs-2 fw-bolder fst-italic pt-2'>Workspace</h3>
         </div>
         <p className=''>Workspace is your solution to the challenges that IT professionals and students encountered during the pandemic. We replicate the office environment, providing essential facilities at multiple locations across India. Our user-friendly website, powered by technologies like React.js and Bootstrap, offers a seamless and engaging workspace experience for efficient work and study.</p>
       </div>
