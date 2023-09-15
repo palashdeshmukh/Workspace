@@ -6,9 +6,9 @@ function Footer() {
   return (
     <div id='footer-container' className='w-100 d-flex flex-column flex-md-row justify-content-between'>
       <div id='footer-box' className='mb-0 mb-md-0 '>
-        <div className='d-flex  align-content-center'>
+        <div style={{height:"45px"}} className='d-flex flex-row'>
         <img width="45px" height="40px" src={Weblogo} alt=""/> 
-        <h3 className='fs-2 fw-bolder fst-italic pt-2'>Workspace</h3>
+        <h3 style={{lineHeight:"45px"}} className='fs-2 h-100 fw-bolder fst-italic'>Workspace</h3>
         </div>
         <p className=''>Workspace is your solution to the challenges that IT professionals and students encountered during the pandemic. We replicate the office environment, providing essential facilities at multiple locations across India. Our user-friendly website, powered by technologies like React.js and Bootstrap, offers a seamless and engaging workspace experience for efficient work and study.</p>
       </div>
