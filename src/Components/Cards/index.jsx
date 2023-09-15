@@ -2,6 +2,8 @@ import React from "react";
 import Myimage from "../../Assets/images/Cafelab3.jpeg"
 import { Component } from "react";
 import Slider from "react-slick";
+import Fivestar from "../Rating/Fivestar";
+import * as Icons from 'react-bootstrap-icons'
 
 export default class Cards extends Component {
   render() {
@@ -55,6 +57,8 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
@@ -67,6 +71,8 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
@@ -80,6 +86,8 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
@@ -93,6 +101,8 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
@@ -106,6 +116,8 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
@@ -119,6 +131,8 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
@@ -131,43 +145,8 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
-  </div>
-</div>
-</div>
-
-
-
-<div className="p-2  d-flex justify-content-center">   
-<div class="card" style={{width:"26rem"}}>
-  <img src={Myimage} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <h5 class="card-title text-center">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
-  </div>
-</div>
-</div>
-
-
-<div className="p-2  d-flex justify-content-center">   
-<div class="card" style={{width:"26rem"}}>
-  <img src={Myimage} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <h5 class="card-title text-center">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
-  </div>
-</div>
-</div>
-
-
-<div className="p-2  d-flex justify-content-center">   
-<div class="card" style={{width:"26rem"}}>
-  <img src={Myimage} class="card-img-top" alt="..."/>
-  <div class="card-body">
-    <h5 class="card-title text-center">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>
@@ -181,6 +160,51 @@ export default class Cards extends Component {
   <div class="card-body">
     <h5 class="card-title text-center">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
+  </div>
+</div>
+</div>
+
+
+<div className="p-2  d-flex justify-content-center">   
+<div class="card" style={{width:"26rem"}}>
+  <img src={Myimage} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title text-center">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
+  </div>
+</div>
+</div>
+
+
+<div className="p-2  d-flex justify-content-center">   
+<div class="card" style={{width:"26rem"}}>
+  <img src={Myimage} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title text-center">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
+    <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
+  </div>
+</div>
+</div>
+
+
+
+<div className="p-2  d-flex justify-content-center">   
+<div class="card" style={{width:"26rem"}}>
+  <img src={Myimage} class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title text-center">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Fivestar/>
+    <p><strong><Icons.GeoAlt/> Location:</strong>  Mumbai</p>
     <a href="https://www.google.com" class="btn btn-primary w-100">View The Workspace </a>
   </div>
 </div>

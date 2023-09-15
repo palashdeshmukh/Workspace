@@ -10,6 +10,7 @@ import Cards from "../../Components/Cards";
 import Accordion from "../../Components/Accordion";
 import MarqueeCompany from "../../Components/MarqueeCompany";
 import TypingHeading from "../../Components/TypingHeading";
+import InfoContainer from "../../Components/InfoContainer";
 const HomeContainer=styled.div`
 width: 100%;
 `
@@ -20,6 +21,7 @@ const Home=()=>{
 <IntroVideo/>
 <TypingHeading/>
 <Facality/>
+<InfoContainer/>
 <Cards/> 
 <SimpleSlider/>
 <Accordion/>

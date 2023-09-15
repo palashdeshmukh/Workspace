@@ -10,7 +10,7 @@ function Footer() {
         <img width="45px" height="40px" src={Weblogo} alt=""/> 
         <h3 style={{lineHeight:"45px"}} className='fs-2 h-100 fw-bolder fst-italic'>Workspace</h3>
         </div>
-        <p className=''>Workspace is your solution to the challenges that IT professionals and students encountered during the pandemic. We replicate the office environment, providing essential facilities at multiple locations across India. Our user-friendly website, powered by technologies like React.js and Bootstrap, offers a seamless and engaging workspace experience for efficient work and study.</p>
+        <p className='lh-lg'>Workspace is your solution to the challenges that IT professionals and students encountered during the pandemic. We replicate the office environment, providing essential facilities at multiple locations across India. Our user-friendly website, powered by technologies like React.js and Bootstrap, offers a seamless and engaging workspace experience for efficient work and study.</p>
       </div>
       <div id='footer-box'>
         <h3>Support</h3>

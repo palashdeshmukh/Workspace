@@ -2,7 +2,7 @@ import React from 'react'
 
 function Accordion () {
   return (
-    <div class="accordion pt-3 pb-3" id="accordionExample">
+    <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
